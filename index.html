@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vanillaJS Weather App</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>vanillaJS Weather App</h1>
+      <form action="">
+        <input type="text" name="" id="city-input" placeholder="都市名を入力" />
+        <input type="submit" name="" value="Get Weather" />
+      </form>
+      <div id="weather-data">
+        <div class="icon">
+          <img
+            src="https://openweathermap.org/img/wn/02d@2x.png"
+            alt="Weather Icon"
+          />
+        </div>
+        <div class="temperature">--°C</div>
+        <div class="description">???</div>
+        <div class="details">
+          <div>Feels like: --°C</div>
+          <div>Humidity: --%</div>
+          <div>Wind speed: --m/s</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
